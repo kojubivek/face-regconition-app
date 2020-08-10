@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+   "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  },
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
@@ -16,8 +20,10 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon server.js"
-  },
+  "start": "node index.js",
+  "build": "ng build",
+  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+},
   "keywords": [],
   "author": "",
   "license": "ISC"
