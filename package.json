@@ -2,7 +2,7 @@
   "name": "smart-brain-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "12.4.0",
     "npm": "6.9.0"
@@ -20,7 +20,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "server.js",
     "build": "ng build",
     "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
     "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
