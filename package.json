@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "engines": {
+  "engines": {
     "node": "12.4.0",
     "npm": "6.9.0"
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -20,12 +19,12 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-  "start": "node index.js",
-  "build": "ng build",
-  "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
-  "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-  "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
-},
+    "start": "node index.js",
+    "build": "ng build",
+    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
+    "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
+    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
